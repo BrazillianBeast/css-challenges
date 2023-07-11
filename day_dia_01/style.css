@@ -23,6 +23,8 @@ ul li
     margin: 0 30px;
     transform: rotate(-20deg) skew(20deg);
     background: #ccc;
+    border-radius: 10%;
+
 }
 
 ul li span
@@ -45,7 +47,6 @@ ul li span
 ul li:hover span
 {
     box-shadow: -1px 1px 1px rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
     
 }
 
