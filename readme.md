@@ -7,7 +7,7 @@ Clone this project on your computer, navigate to the folder you want, just type 
 
 ## Challenge 01 - Layered Icon
 
-![challenge1](https://github.com/mjulialobo/css-challenges/assets/65983895/018f1618-7d81-4072-a066-705ed8963f4b)
+![challenge1](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_01/dia1.gif)
 
 Skills:
 - Create layers using span tag;
@@ -15,3 +15,11 @@ Skills:
 - nth-child();
 - 2D and 3D transform property;
 - Opacity / Transparency;
+
+## Challenge 02 - Animated Loader
+
+![challenge1](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_02/dia1.gif)
+
+Skills:
+- Animations;
+- Positions;
