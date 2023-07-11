@@ -18,7 +18,7 @@ Skills:
 
 ## Challenge 02 - Animated Loader
 
-![challenge1](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_02/dia1.gif)
+![challenge1](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_02/dia2.gif)
 
 Skills:
 - Animations;
