@@ -24,3 +24,12 @@ Skills:
 - Animations;
 - Positions;
 
+## Challenge 03 - Change font color when div change
+
+![challenge1](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_03/dia3.gif)
+
+Skills:
+- Animations;
+- Positions;
+- Css Overflow;
+
