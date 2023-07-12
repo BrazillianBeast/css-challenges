@@ -3,10 +3,12 @@ body{
     padding: 0;
 }
 .container {
+    width: 100%;
+    height: 100%;
+    background: #eaffae;
+    box-sizing: border-box;
+    overflow: hidden;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 div .ring {
     width: 300px;
