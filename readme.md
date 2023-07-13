@@ -35,7 +35,7 @@ Skills:
 
 ## Challenge 04 - Hover Effects
 
-![challenge1](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_03/dia3.gif)
+![challenge1](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_04/dia4.gif)
 
 Skills:
 - box-shadow
