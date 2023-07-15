@@ -44,7 +44,7 @@ Skills:
 
 ## Challenge 05 - Pulse effect
 
-![challenge05](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_04/dia5.gif)
+![challenge05](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_05/dia5.gif)
 
 Skills:
 - Transformations;
@@ -52,7 +52,7 @@ Skills:
 
 ## Challenge 06 - Lightning effect
 
-![challenge06](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_04/dia6.gif)
+![challenge06](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_06/dia6.gif)
 
 Skills:
 - nth-child();
