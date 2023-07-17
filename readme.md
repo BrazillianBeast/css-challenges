@@ -57,3 +57,11 @@ Skills:
 Skills:
 - nth-child();
 - Animations;
+
+## Challenge 07 - Animated preloader
+
+![challenge07](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_07/dia7.gif)
+
+Skills:
+- nth-child();
+- Animations;
