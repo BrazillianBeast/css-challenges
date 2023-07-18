@@ -11,6 +11,7 @@ body
     align-items: center;
     font-family: 'Lato', sans-serif;
     background-color: var(--black);
+    overflow: hidden;
 }
 
 .heart

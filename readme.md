@@ -65,3 +65,11 @@ Skills:
 Skills:
 - nth-child();
 - Animations;
+
+## Challenge 08 - Heart Beating
+
+![challenge08](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_08/dia8.gif)
+
+Skills:
+- ::before, ::after;
+- Animations;
