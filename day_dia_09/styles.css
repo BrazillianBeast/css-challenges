@@ -7,17 +7,34 @@ body {
   }
   
   .pendulum {
+    
+    border-bottom: 20px solid #D7D7D7;
+    border-left: 2px solid #073b4c;
+    border-right: 2px solid #073b4c;
+    border-top: 4px solid #073b4c;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     display: flex;
-    border-top: 8px solid #354d4e;
+    border-top: 8px solid #073b4c;
+    display: flex;
+    /* left: 50%; */
+    /* position: absolute; */
+    padding: 0 40px 20px;
+    /* top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    
   }
   
   .pendulum span {
     width: 3px;
     height: 300px;
-    background-color: #354d4e;
+    background-color: #073b4c;
     margin: 0 29px;
     position: relative;
     transform-origin: top;
+    display: flex;
+  	/* transform: translate(-50%, -50%); */
+    
   }
   
   .pendulum span:before {
@@ -26,24 +43,48 @@ body {
     bottom: 0;
     width: 60px;
     height: 60px;
-    background-color: #354d4e;
+    background-color: #073b4c;
     border-radius: 50%;
     transform: translateX(-50%);
   }
 
-  .pendulum span:first-child {
+  .pendulum span:nth-child(1) {
     animation: left-arm 2s ease-in infinite;
      
   }
 
-  .pendulum span:first-child::before {
+  .pendulum span:nth-child(1):before {
     animation: first-ball-color-change 2s linear infinite 1s;
   }
 
-  .pendulum span:last-child::before {
-    animation: last-ball-color-change 2s linear infinite 1s;
+  .pendulum span:nth-child(2) {
+    animation: second-ball-movement 2s linear infinite 1s;
+  }
+
+  .pendulum span:nth-child(2):before {
+    animation:second-ball-color-change 2s linear infinite 1s;;
+  }
+
+  .pendulum span:nth-child(3) {
+    animation: third-ball-movement 2s linear infinite 1s;
+  }
+
+  .pendulum span:nth-child(3):before {
+    animation:third-ball-color-change 2s linear infinite 1s;;
+  }
+
+  .pendulum span:nth-child(4) {
+    animation: fourth-ball-movement 2s linear infinite 1s;
+  }
+
+  .pendulum span:nth-child(4):before {
+    animation:fourth-ball-color-change 2s linear infinite 1s;;
   }
   
+  .pendulum span:nth-child(5)::before {
+    animation: last-ball-color-change 2s linear infinite 1s;
+  }
+
   .pendulum span:last-child {
     animation: right-arm 2s ease-in infinite 1s;
   }
@@ -57,6 +98,61 @@ body {
     }
     50% {
       transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes second-ball-movement{
+    0% {
+      transform: rotate(0deg);
+    }
+    20% {
+      transform: rotate(-5deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    98%{
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes third-ball-movement{
+    0% {
+      transform: rotate(0deg);
+    }
+    20% {
+      transform: rotate(-5deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    97%{
+      transform: rotate(4deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+ 
+
+  @keyframes fourth-ball-movement{
+    0% {
+      transform: rotate(0deg);
+    }
+    20% {
+      transform: rotate(-10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    95%{
+      transform: rotate(5deg);
     }
     100% {
       transform: rotate(0deg);
@@ -78,15 +174,36 @@ body {
     }
   }
 
+  
+
   @keyframes first-ball-color-change {
-    10% {background-color: #354d4e}
-    50% {background-color: #354d4e}
-    51% {background-color: #FF0000}
-    100% {background-color: #FF0000;}
+    10% {background-color: #073b4c}
+    50% {background-color: #073b4c}
+    51% {background-color: #70d6ff}
+    100% {background-color: #70d6ff;}
+  }
+  @keyframes second-ball-color-change {
+    10% {background-color: #073b4c}
+    50% {background-color: #073b4c}
+    51% {background-color: #ff70a6}
+    100% {background-color: #ff70a6;}
+  }
+  @keyframes third-ball-color-change {
+    10% {background-color: #ff9770}
+    50% {background-color: #073b4c}
+    66% {background-color: #ff9770;}
+    90% {background-color: #073b4c}
+
+  }
+  @keyframes fourth-ball-color-change {
+    10% {background-color: #ffd670}
+    50% {background-color: #073b4c}
+    51% {background-color: #ffd670}
+    90% {background-color: #073b4c;}
   }
   @keyframes last-ball-color-change {
-    10% {background-color: #F7F;}
-    50% {background-color: #F7F}
-    51% {background-color: #354d4e}
-    100% {background-color: #354d4e}
+    10% {background-color: #e9ff70;}
+    50% {background-color: #e9ff70}
+    51% {background-color: #073b4c}
+    100% {background-color: #073b4c}
   }

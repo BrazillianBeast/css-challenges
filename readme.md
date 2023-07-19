@@ -73,3 +73,13 @@ Skills:
 Skills:
 - ::before, ::after;
 - Animations;
+
+## Challenge 09 - Newton's Pendulum
+
+![challenge09](https://github.com/mjulialobo/css-challenges/assets/65983895/15bb3318-b669-4169-963e-1700f4833517)
+
+Skills:
+- nth-child();
+- transform
+- Animations;
+- ::before, ::after;
