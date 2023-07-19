@@ -76,7 +76,7 @@ Skills:
 
 ## Challenge 09 - Newton's Pendulum
 
-![challenge09](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_08/dia8.gif)
+![challenge09](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_09/dia9.gif)
 
 Skills:
 - nth-child();
