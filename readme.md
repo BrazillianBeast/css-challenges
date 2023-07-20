@@ -83,3 +83,12 @@ Skills:
 - transform
 - Animations;
 - ::before, ::after;
+
+## Challenge 10 - Change Emoji
+
+![challenge10](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_10/dia10.gif)
+
+Skills:
+
+- Animations;
+- ::after;
