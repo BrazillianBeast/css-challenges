@@ -92,3 +92,13 @@ Skills:
 
 - Animations;
 - ::after;
+
+## Challenge 11 - Hover Effect
+
+![challenge10](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_11/dia11.gif)
+
+Skills:
+- z-index;
+- Animations;
+- ::before, ::hover
+- transitions;
