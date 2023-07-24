@@ -3,6 +3,7 @@
 :root {
     --background-color: #ebf4f5;
     --font-color: #002654;
+    --red: #e60611;
 }
 
 body {
@@ -31,10 +32,32 @@ body {
     letter-spacing: -0.045em;
     font-weight: 700;
     text-transform: uppercase;
+    position: relative;
 }
 
+.text-box h2:hover::before{
+    /* color: var(--red); */
+    transition: 1s linear;
+    /* color: var(--red); */
+    width: 100%;
+
+}
+
+.text-box h2::before 
+{
+    content: "Gratitude";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: #00d26a;
+    width: 0%;
+    overflow: hidden;
+    transition: all 0.6s;
+}
+
+
 .text-box span::after {
-    content: "🌎";
+    content: "🍀";
     font-size: 8rem;
     position: relative;
     bottom: 0;
@@ -48,18 +71,10 @@ body {
     animation: emojis 2s linear infinite;
   }
 
-  @keyframes emojis {
-    20%{
-        content: "🤸🏽";
-    }
-    40%{
-        content: "🎸";
-    }
-    60%{
-        content: "🌎";
-    }
-    80%{
-        content: "📚";
+   @keyframes emojis {
+
+    50%{
+        content: "🌻";
     }
 
   }

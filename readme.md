@@ -102,3 +102,11 @@ Skills:
 - Animations;
 - ::before, ::hover
 - transitions;
+
+## Challenge 12 - Fill hover
+
+![challenge12](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_12/dia12.gif)
+
+Skills:
+- transform, transition;
+- ::before, ::hover;
