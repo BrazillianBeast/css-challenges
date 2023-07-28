@@ -110,3 +110,11 @@ Skills:
 Skills:
 - transform, transition;
 - ::before, ::hover;
+
+## Challenge 13 - Moving text effect
+
+![challenge13](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_13/dia13.gif)
+
+Skills:
+- animations;
+- nth-child();
