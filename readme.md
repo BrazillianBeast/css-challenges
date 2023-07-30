@@ -118,3 +118,12 @@ Skills:
 Skills:
 - animations;
 - nth-child();
+
+
+## Challenge 14 - Animated text
+
+![challenge14](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_14/dia14.gif)
+
+Skills:
+- background clip;
+- animations;
