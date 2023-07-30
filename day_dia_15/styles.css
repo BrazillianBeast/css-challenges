@@ -1,0 +1,33 @@
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6528F7;
+    overflow: hidden;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #EDE4FF;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .1em;
+    line-height: 5em;
+    font-size: 5em;
+    text-shadow: 0 1px 0 #efefef,
+                 0 2px 0 #efefef,
+                 0 3px 0 #efefef,
+                 0 4px 0 #efefef,
+                 0 30px 5px rgba(0,0,0,.1);
+    animation: rotate 2s linear infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes rotate 
+{
+    from {transform: rotate(5deg);}
+
+    to {transform: rotate(-5deg);}
+}
