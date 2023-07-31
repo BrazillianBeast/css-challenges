@@ -135,3 +135,12 @@ Skills:
 Skills:
 - transform, animation;
 
+## Challenge 16 - Fake Terminal
+
+![challenge16](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_16/dia16.gif)
+
+Skills:
+- animation;
+- nth-child();
+- Semantic html;
+
