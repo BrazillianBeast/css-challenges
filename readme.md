@@ -144,3 +144,13 @@ Skills:
 - nth-child();
 - Semantic html;
 
+## Challenge 17 - Birthday Animated Card
+
+![challenge17](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_17/dia17.gif)
+
+Skills:
+- ::before;
+- ::after;
+- background-position;
+- transform;
+- box-shadow;
