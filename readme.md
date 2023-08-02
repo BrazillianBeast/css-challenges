@@ -154,3 +154,12 @@ Skills:
 - background-position;
 - transform;
 - box-shadow;
+
+
+## Challenge 18 - Edo Tensei blip
+![challenge18](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_18/dia18.gif)
+
+Skills:
+- :hover;
+- nth-child();
+- transform;
