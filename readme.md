@@ -157,7 +157,7 @@ Skills:
 
 
 ## Challenge 18 - Edo Tensei blip
-![challenge18](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_18/dia18.gif)
+![challenge18](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_18/dia18_new.gif)
 
 Skills:
 - :hover;
