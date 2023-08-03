@@ -163,3 +163,12 @@ Skills:
 - :hover;
 - nth-child();
 - transform;
+
+## Challenge 19 - Particles
+![challenge19](ttps://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_18/dia19.gif)
+
+Skills:
+- Css variables;
+- nth-child();
+- transform;
+
