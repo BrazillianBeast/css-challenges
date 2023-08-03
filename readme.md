@@ -165,7 +165,7 @@ Skills:
 - transform;
 
 ## Challenge 19 - Particles
-![challenge19](ttps://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_19/dia19_new.gif)
+![challenge19](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_19/dia19_new.gif)
 
 Skills:
 - Css variables;
