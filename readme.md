@@ -168,7 +168,16 @@ Skills:
 ![challenge19](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_19/dia19_new.gif)
 
 Skills:
-- Css variables;
 - nth-child();
 - transform;
+
+## Challenge 20 - 3D Flip Card
+![challenge19](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_2-/dia20.gif)
+
+Skills:
+- nth-child();
+- transform;
+- transform-style;
+- perspective;
+- gap;
 

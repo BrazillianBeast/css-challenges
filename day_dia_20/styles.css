@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+
+}
+
+main
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    color: #FFF;
+}
+
+
+.page-header{
+    background-color: #7e57c2 ;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 190px;
+    color: #FFF;
+    /* text-decoration: none; */
+    
+}
+.filter-green{
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(138deg) brightness(106%) contrast(101%);
+}
+
+.top-bar-container{
+    width: 90%;
+    color: #EEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: .5rem 0;
+}
+
+.top-bar-container p{
+    font-family: 'Poppins';
+}
+
+.container {
+    height: 50vh;
+    width: 20rem;
+    perspective: 38rem;
+}
+
+.container:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: #E7E7E7;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front, 
+.back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 15px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front {
+    background-image: url(https://source.unsplash.com/ukDEbYnyDsU/500x500);
+    background-position: 50%;
+}
+
+.back{
+    background-color: #3A3A3A;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.back h2,
+ p {
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.back p {
+    font-size: .8em;
+    padding: 1em 1em;
+    max-width: 80%;
+}
