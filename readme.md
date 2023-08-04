@@ -172,7 +172,7 @@ Skills:
 - transform;
 
 ## Challenge 20 - 3D Flip Card
-![challenge19](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_2-/dia20.gif)
+![challenge19](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_20/dia20.gif)
 
 Skills:
 - nth-child();
