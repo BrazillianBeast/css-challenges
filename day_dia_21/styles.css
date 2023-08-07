@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+  height: 93vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://wallpaperaccess.com/full/3739441.jpg');
+}
+
+.page-header{
+  background-color: #7e57c2 ;
+  height: 7vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 190px;
+  color: #FFF;
+  
+}
+.filter-green{
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(138deg) brightness(106%) contrast(101%);
+}
+
+.top-bar-container{
+  width: 90%;
+  color: #EEE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: .5rem 0;
+}
+
+.top-bar-container p{
+  font-family: 'Poppins';
+}
+
+  ul {
+    gap: 3em;
+    padding: 2em;
+    display: flex;
+  }
+  
+  ul li {
+    list-style: none;
+    animation: jumping 1.5s linear infinite;
+  }
+   
+  @keyframes jumping {
+    0% {
+      transform: translateY(-2.5em);
+    }
+    50% {
+      transform: translateY(-10em);
+    }
+    100% {
+      transform: translateY(-2.5em);
+    }
+}
+  
+  ul li:nth-child(1) {
+    animation-delay: 0.45s;
+  }
+  
+  ul li:nth-child(2) {
+    animation-delay: 0.6s;
+  }

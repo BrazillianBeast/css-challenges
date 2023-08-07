@@ -181,3 +181,9 @@ Skills:
 - perspective;
 - gap;
 
+## Challenge 21 - Mario Jump
+![challenge21](https://github.com/mjulialobo/css-challenges/assets/65983895/04bb4b3e-7d5d-44bb-835a-a2a68bbe9510)
+
+Skills:
+- nth-child();
+- animations;
