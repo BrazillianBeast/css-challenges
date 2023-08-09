@@ -172,7 +172,7 @@ Skills:
 - transform;
 
 ## Challenge 20 - 3D Flip Card
-![challenge19](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_20/dia20.gif)
+![challenge20](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_20/dia20.gif)
 
 Skills:
 - nth-child();
@@ -187,3 +187,12 @@ Skills:
 Skills:
 - nth-child();
 - animations;
+
+## Challenge 22 - Stars Hover
+![challenge22](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_22/dia22.gif)
+
+Skills:
+- input:checked;
+- animations;
+- label:before;
+- :not(:checked);
