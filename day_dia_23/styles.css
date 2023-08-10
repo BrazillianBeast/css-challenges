@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+  height: 93vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.page-header{
+  background-color: #FFF ;
+  height: 7vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 190px;
+  color: #000;
+  
+}
+.filter-green{
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(138deg) brightness(106%) contrast(101%);
+}
+
+.top-bar-container{
+  width: 90%;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: .5rem 0;
+}
+
+.top-bar-container p{
+  font-family: 'Poppins';
+}
+
+.top-bar-container a{
+  text-decoration: none;
+}
+
+main {
+  background: linear-gradient(45deg, #E0EAFC, #CFDEF3);
+}
+
+
+.scene {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+
+}
+
+.scene .box {
+    text-align: center;
+}
+
+.box h4 {
+    margin: .5em 0;
+}
+
+/* .box{ */
+    /* background-color: red; */
+    /* overflow: hidden; */
+    /* justify-content: center; */
+    /* position: relative; */
+    /* background: transparent; */
+    /* padding: 45px 70px 55px; */
+    /* border-radius: 25px; */
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05); */
+/* } */
+
+  i {
+    font-size: 6em;
+    color: #015a8a;
+    cursor: pointer;
+  }
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: transparent;
+    padding: 2px 70px;
+    position: relative;
+    overflow: hidden;
+}
+
+h3::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transform: translateX(-101%);
+}
+
+i:hover ~ h3{
+    transition-delay: 0.2s;
+    background: transparent;
+    color: #000;
+}
+
+i:hover ~ h3::before{
+    transition: 0.8s ease-out;
+    transform: translateX(101%);
+}
+
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: transparent;
+    padding: 1px 70px;
+    position: relative;
+    overflow: hidden;
+  }
+
+h4::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #015a8a;
+    transform: translateX(101%);
+}
+
+i:hover ~ h4{
+    transition-delay: 0.2s;
+    background: transparent;
+    color: #000;
+}
+
+i:hover ~ h4::before{
+    transition: 0.8s ease-out;
+    transform: translateX(-101%);
+}

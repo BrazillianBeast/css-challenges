@@ -196,3 +196,13 @@ Skills:
 - animations;
 - label:before;
 - :not(:checked);
+
+## Challenge 23 - Linkedin Hover
+![challenge23](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_23/dia23.gif)
+
+Skills:
+- Transitions;
+- :Before;
+- Translate;
+- Overflow;
+- CSS Selectors(> + ~);
