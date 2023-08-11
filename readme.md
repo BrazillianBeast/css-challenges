@@ -7,7 +7,7 @@ Clone this project on your computer, navigate to the folder you want, just type 
 
 ## Challenge 01 - Layered Icon
 
-![challenge1](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_01/dia1.gif)
+![challenge02](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_01/dia1.gif)
 
 Skills:
 - Create layers using span tag;
@@ -18,7 +18,7 @@ Skills:
 
 ## Challenge 02 - Animated Loader
 
-![challenge1](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_02/dia2.gif)
+![challenge02](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_02/dia2.gif)
 
 Skills:
 - Animations;
@@ -26,7 +26,7 @@ Skills:
 
 ## Challenge 03 - Change font color when div change
 
-![challenge1](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_03/dia3.gif)
+![challenge03](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_03/dia3.gif)
 
 Skills:
 - Animations;
@@ -35,7 +35,7 @@ Skills:
 
 ## Challenge 04 - Hover Effects
 
-![challenge1](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_04/dia4.gif)
+![challenge04](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_04/dia4.gif)
 
 Skills:
 - box-shadow
@@ -95,7 +95,7 @@ Skills:
 
 ## Challenge 11 - Hover Effect
 
-![challenge10](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_11/dia11.gif)
+![challenge11](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_11/dia11.gif)
 
 Skills:
 - z-index;
@@ -206,3 +206,12 @@ Skills:
 - Translate;
 - Overflow;
 - CSS Selectors(> + ~);
+
+
+## Challenge 24 - 3D Animated Text
+![challenge24](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_24/dia24.gif)
+
+Skills:
+- Transitions;
+- Translate;
+- transform-style;
