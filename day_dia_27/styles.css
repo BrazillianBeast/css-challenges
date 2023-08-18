@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+  height: 93vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.page-header{
+  background-color: #FFF ;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 190px;
+  color: #000;
+}
+
+.github p {
+  font-size: 1em;
+}
+
+.filter-green{
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(138deg) brightness(106%) contrast(101%);
+}
+
+.top-bar-container{
+  width: 90%;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: .5rem 0;
+}
+
+
+.top-bar-container a{
+  text-decoration: none;
+}
+
+main {
+  background: linear-gradient(45deg, #E0EAFC, #CFDEF3);
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	/* box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1); */
+	overflow: hidden;
+  background: transparent;
+  color: #333;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	perspective: 1000px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.cb {
+	display: none;
+}
+
+.btn {
+	display: block;
+	position: relative;
+	width: 96px;
+	height: 48px;
+	font-weight: 600;
+	border-radius: 30px;
+	cursor: pointer;
+  transition: all .5s ease-in-out;
+	transform-style: preserve-3d;
+	text-transform: uppercase;
+}
+
+.btn-front, .btn-back {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	border-radius: 30px;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+}
+
+
+.btn-front {
+	background-color: #fff;
+	color: #647484;
+	transform: rotateX(0);
+}
+
+.btn-back {
+	background-color: #64C760;
+	color: #fff;
+	border: 2px solid #fff;
+	transform: rotateX(180deg);
+}
+
+.cb:checked ~ .btn {
+	transform: rotateX(180deg);
+}
+
+@keyframes animate{
+  0%{
+    transform: perspective(1000px) rotateX(0deg) rotate(25deg);
+  }
+  100%{
+    transform: perspective(1000px) rotateX(360deg) rotate(25deg);
+  }
+}

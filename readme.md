@@ -215,3 +215,27 @@ Skills:
 - Transitions;
 - Translate;
 - transform-style;
+
+## Challenge 25 - 3D Water Flow Text
+![challenge25](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_25/dia25.gif)
+
+s
+## Challenge 26 - Typewritter Effect Text
+![challenge26](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_26/dia26.gif)
+
+
+## Challenge 27 - Animated Sucess Button
+![challenge27](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_27/dia27.gif)
+
+
+## Challenge 28 - Sunflower 3D Text Button
+![challenge28](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_28/dia28.gif)
+
+
+## Challenge 29 - Rose 3D Text Button
+![challenge29](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_29/dia29.gif)
+
+
+## Challenge 30[Final] - Fireworks Effect
+![challenge30](https://raw.githubusercontent.com/BrazillianBeast/css-challenges/main/day_dia_30/dia30.gif)
+
